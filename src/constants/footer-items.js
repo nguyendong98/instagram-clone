@@ -1,0 +1,20 @@
+export const footerItem = [
+    'About',
+    'Blog',
+    'Jobs',
+    'Help',
+    'API',
+    'Privacy',
+    'Terms',
+    'Top Accounts',
+    'Hashtags',
+    'Locations',
+    'Beauty',
+    'Dance',
+    'Fitness',
+    'Foot & Drink',
+    'Home & Garden',
+    'Music',
+    'Visual Arts',
+
+]

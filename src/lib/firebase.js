@@ -1,4 +1,4 @@
-import Firebase from 'firebase/app';
+import firebase from 'firebase/app';
 import 'firebase/firestore';
 import 'firebase/auth';
 // import { seedDatabase } from 'seed';
@@ -11,8 +11,9 @@ const firebaseConfig = {
     appId: "1:886404237122:web:91fe0b22d5d00cab33eadb"
 };
 
-const firebase = Firebase.initializeApp(firebaseConfig);
-const { FieldValue } = Firebase.firestore;
+firebase.initializeApp(firebaseConfig);
+const { FieldValue } = firebase.firestore;
 // seedDatabase(firebase)
-
-export { firebase, FieldValue };
+export { FieldValue };
+export const firebaseInstance = firebase;
+export const authService = firebase.auth();
